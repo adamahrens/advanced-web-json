@@ -5,12 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Todos</title>
 </head>
 
 <body>
-    <h1>Todos</h1>
-    <p>Toss a coin to your witcher</p>
+    <header>
+        <h1>todo<span>list</span></h1>
+        <h2>A simple todo list build with express, mongodb, jquery</h2>
+    </header>
+
+    <section class="form">
+        <input id="todoInput" type="text" placeholder="Add todo here...">
+    </section>
+
+    <ul class="list"></ul>
+
     <script src="app.js" type="text/javascript"></script>
 </body>
 
